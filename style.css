@@ -1,0 +1,64 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: chocolate;
+}
+
+#main-container{
+    display: flex;
+    flex-flow: column wrap;
+    margin: auto;
+    border: 2px solid black;
+    width: 60rem;
+    height: 25rem;
+    margin-top: 10px;
+    background-color: coral;
+}
+
+#heading{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+    margin-left: 24rem;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+}
+#totalevent{
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+}
+#mainevent{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 13rem;
+    height: 10rem;
+}
+
+#tile{
+    text-align: center;
+    font-weight: bold;
+}
+#content{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10px;
+    
+}
+
+#image{
+    width: 100px;
+    height: 120px;
+    margin-left: 2px;
+}
+
+#sub-content{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 10px;
+}
